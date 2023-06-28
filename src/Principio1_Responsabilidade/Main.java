@@ -1,6 +1,5 @@
-package Principio1;
-// refatorei um exercicio de acordo com o primeiro príncipio de SOLID
-// O original: https://github.com/thaisbbreder-zup/RevisaoPOO/tree/master/src/Ex_02_Biblioteca
+package Principio1_Responsabilidade;
+
 public class Main {
     public static void main(String[] args) {
         Livro livro1 = new Livro("9789896661458", "Rita Lee: uma autobiografia", "Autobiografia", "Rita Lee");
@@ -15,24 +14,24 @@ public class Main {
         System.out.println("| Livro 1 |");
         System.out.println("------------------------------------------------------------------------------------------------------------------------------");
         ExibidorInformacoesLivro.exibirInformacoes(livro1);
-        registroLivro.registrarLivro(livro1);
+        registroLivro.registrarLivro(livro1.getIsbn(), livro1.getNomeDoLivro(), livro1.getGenero(), livro1.getAutor());
         System.out.println();
 
         System.out.println("| Livro 2 |");
         System.out.println("------------------------------------------------------------------------------------------------------------------------------");
         ExibidorInformacoesLivro.exibirInformacoes(livro2);
-        registroLivro.registrarLivro(livro2);
+        registroLivro.registrarLivro(livro2.getIsbn(), livro2.getNomeDoLivro(), livro2.getGenero(), livro2.getAutor());
         System.out.println();
 
         System.out.println("| Livro 3 |");
         System.out.println("------------------------------------------------------------------------------------------------------------------------------");
         ExibidorInformacoesLivro.exibirInformacoes(livro3);
-        registroLivro.registrarLivro(livro3);
+        registroLivro.registrarLivro(livro3.getIsbn(), livro3.getNomeDoLivro(), livro3.getGenero(), livro3.getAutor());
         System.out.println();
 
         System.out.println("| Livro 4 |");
         System.out.println("------------------------------------------------------------------------------------------------------------------------------");
         ExibidorInformacoesLivro.exibirInformacoes(livro4);
-        registroLivro.registrarLivro(livro4);
+        registroLivro.registrarLivro(livro4.getIsbn(), livro4.getNomeDoLivro(), livro4.getGenero(), livro4.getAutor());
     }
 }

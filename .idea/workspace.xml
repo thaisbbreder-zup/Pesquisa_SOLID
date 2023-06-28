@@ -5,12 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="766ba691-e568-44c0-a02d-bb8ae6b11cce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Principio1/ExibirInformacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principio1/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principio1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principio1/RegistroLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio2_AbertoFechado/ContratoCLT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio2_AbertoFechado/Estagio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio2_AbertoFechado/FolhaDePagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio2_AbertoFechado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio2_AbertoFechado/Remuneravel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio3_Liskov/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio3_Liskov/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio3_Liskov/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio3_Liskov/MotorCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio4_Segregacao/Digitalizavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio4_Segregacao/Impressora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio4_Segregacao/Imprimivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio4_Segregacao/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio5_Inversao/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio5_Inversao/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio5_Inversao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio5_Inversao/MotorDiesel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principio5_Inversao/MotorGasolina.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pesquisa SOLID.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pesquisa SOLID.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principio1/ExibidorInformacoesLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principio1_Responsabilidade/ExibidorInformacoesLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principio1/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principio1_Responsabilidade/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principio1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principio1_Responsabilidade/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principio1/RegistroLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principio1_Responsabilidade/RegistroLivro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,11 +61,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/thais.breder/Desktop/Atividades/Pesquisa SOLID",
-    "onboarding.tips.debug.path": "C:/Users/thais.breder/Desktop/Atividades/Pesquisa SOLID/src/Main.java"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/thais.breder/Desktop/Atividades/Pesquisa SOLID/src",
+    "onboarding.tips.debug.path": "C:/Users/thais.breder/Desktop/Atividades/Pesquisa SOLID/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thais.breder\Desktop\Atividades\Pesquisa SOLID\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Principio5_Inversao.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex_02_Biblioteca.Main" />
       <module name="Pesquisa SOLID" />
@@ -57,8 +86,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Principio1_Responsabilidade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principio1_Responsabilidade.Main" />
+      <module name="Pesquisa SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Principio1_Responsabilidade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principio2_AbertoFechado.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principio2_AbertoFechado.Main" />
+      <module name="Pesquisa SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Principio2_AbertoFechado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principio3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principio3.Main" />
+      <module name="Pesquisa SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Principio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principio5_Inversao.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principio5_Inversao.Main" />
+      <module name="Pesquisa SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Principio5_Inversao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principio5_Inversao.Main" />
+        <item itemvalue="Application.Principio3.Main" />
+        <item itemvalue="Application.Principio2_AbertoFechado.Main" />
+        <item itemvalue="Application.Principio1_Responsabilidade.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

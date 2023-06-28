@@ -1,4 +1,4 @@
-package Principio1;
+package Principio1_Responsabilidade;
 
 public class Livro {
     private String isbn;
@@ -30,4 +30,10 @@ public class Livro {
         return autor;
     }
 
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nomeDoLivro);
+        System.out.println("ISBN: " + isbn);
+        System.out.println("Gênero: " + genero);
+        System.out.println("Autor: " + autor);
+    }
 }

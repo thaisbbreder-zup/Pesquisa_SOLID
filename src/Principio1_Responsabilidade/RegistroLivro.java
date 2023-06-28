@@ -1,4 +1,4 @@
-package Principio1;
+package Principio1_Responsabilidade;
 
 public class RegistroLivro {
     public void registrarLivro(String isbn) {

@@ -1,4 +1,4 @@
-package Principio1;
+package Principio1_Responsabilidade;
 
 public class ExibidorInformacoesLivro {
     public static void exibirInformacoes(Livro livro) {
@@ -8,7 +8,3 @@ public class ExibidorInformacoesLivro {
         System.out.println("Autor: " + livro.getAutor());
     }
 }
-
-
-
-
